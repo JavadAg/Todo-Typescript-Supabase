@@ -1,8 +1,17 @@
 import React from "react"
-import "./App.css"
+import Form from "./components/Form/Form"
+import Layout from "./components/Layout/Layout"
+import TodosList from "./components/Todos/TodosList"
 
-function App() {
-  return <div>X</div>
+const App: React.FC = () => {
+  return (
+    <>
+      <Layout>
+        <TodosList />
+        <Form />
+      </Layout>
+    </>
+  )
 }
 
 export default App
