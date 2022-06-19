@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Todo App with Typescript + Supabase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features :
+
+Google Authentication
+
+Add Todo - Set todo as done - Delete Todo
 
 ## Available Scripts
 
